@@ -1,0 +1,19 @@
+{
+  "reviewer": "<reviewer-or-process>",
+  "reviewed_against_audio": false,
+  "scope": "none",
+  "audio_review": {
+    "method": null,
+    "coverage_confirmed": false,
+    "reviewed_ranges": []
+  },
+  "decisions": [],
+  "_instructions": {
+    "audio_review": "Set reviewed_against_audio=true only after direct playback; then use method=direct-listen and list every reviewed range.",
+    "keep": "May be recorded without evidence, but it remains acknowledged-unverified and does not resolve audit flags.",
+    "format_text": "May change whitespace, trailing sentence punctuation, or equivalent Unicode presentation only; do not use for commands, paths, or identifiers.",
+    "replace_text": "Requires evidence.type audio-listen or authoritative-material.",
+    "exclude": "Requires evidence.type audio-listen covering the whole segment.",
+    "set_speaker": "Requires evidence.type audio-listen or authoritative-material."
+  }
+}
